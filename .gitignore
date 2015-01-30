@@ -1,0 +1,27 @@
+# Nette app
+log/*
+temp/*
+vendor/*
+!vendor/others
+app/config/config.local.neon
+composer.lock
+
+!.gitignore
+!.htaccess
+!web.config
+
+# Node, npm, Grunt, Bower
+node_modules/
+.tmp/
+!.bowerrc
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+.supported
+
+# NetBeans
+/nbproject/private/
