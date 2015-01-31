@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>PHP app running on AWS</title>
-    </head>
-    <body>
-		<?php
-		echo 'ya!';
-		?>
-    </body>
-</html>
+<?php
+
+// Uncomment this line if you must temporarily take down your site for maintenance.
+// require '.maintenance.php';
+
+$container = require __DIR__ . '/../app/bootstrap.php';
+
+$container->getService('application')->run();

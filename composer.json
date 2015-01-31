@@ -1,0 +1,20 @@
+{
+	"name": "pokusew/aws-firstapp",
+	"description": "My first app running on AWS",
+	"private": true,
+	"type": "project",
+	"authors": [
+		{
+			"name": "Martin Endler",
+			"homepage": "http://martinendler.cz"
+		}
+	],
+	"require": {
+		"php": ">= 5.3.7",
+		"nette/nette": "~2.2.0"
+	},
+	"require-dev": {
+		"nette/tester": "~1.0"
+	},
+	"minimum-stability": "stable"
+}
