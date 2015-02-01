@@ -1,7 +1,7 @@
 My first app running on AWS
 =============
 
-Sample app besed on Nette framework.
+Sample app based on Nette framework.
 
 [Nette](http://nette.org) is a popular tool for PHP web development.
 It is designed to be the most usable and friendliest as possible. It focuses
